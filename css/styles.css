@@ -24,18 +24,37 @@ h1{
 }
 
 .tarjeta{
-  background-color: white;
+  background-color:  #8E64C5;
   border-radius: 20px;
   margin: 0 auto;
   height: 200px;
   width: 50%;
   max-width: 400px;
+  text-align: center;
+  &:hover{
+    background-color:#7898FF;
+  }
 }
-
+img{
+  margin: 5px;
+  border-radius: 5px;
+}
+p{
+  padding-top: 5px;
+}
 .btnContainer{
   padding: 20px 0;
   text-align: center;
+  border-radius: 15px;
 }
 .btnContainer button{
   padding: 5px 15px;
+  border-radius: 20px;
+  background-color: pink;
+  cursor: pointer;
+  border-style: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  &:hover{
+    background-color: crimson;
+  }
 }
